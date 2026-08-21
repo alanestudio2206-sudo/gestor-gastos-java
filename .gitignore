@@ -1,0 +1,10 @@
+### IntelliJ IDEA ###
+.idea/
+*.iml
+out/
+
+#Compilados
+*.class
+
+#Sistema
+.DS_Store
