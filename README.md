@@ -58,7 +58,7 @@ Para que cada quien haga su parte sin afectar el código del otro hasta que est�
 Mi compañero y yo modificamos la misma línea del título del programa, cada uno con un texto diferente.
 
 ¿Cómo decidí qué código conservar?
-Nos pusimos de acuerdo y combinamos ambas ideas en un solo texto.
+Le dije que lo modificaria y el acepto.
 
 ¿Qué aporté personalmente al programa?
 Hice el registro de gastos con sus validaciones y el método para mostrar la lista completa.
