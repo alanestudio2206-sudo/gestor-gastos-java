@@ -1,8 +1,8 @@
-# Gestor Semanal de Gastos
+#Gestor Semanal de Gastos
 
 ## Integrantes
 - Lopez Cruz Alan - Estudiante A
-- [Nombre de tu compañero] - Estudiante B
+- Axel Iván Breña Torres - Estudiante B
 
 ## Responsabilidades de cada integrante
 
@@ -36,9 +36,8 @@
 
 Al modificar ambos la misma línea del título del programa en ramas distintas
 (`titulo-estudiante-a` y `titulo-estudiante-b`), Git no pudo fusionar
-automáticamente los cambios. Se resolvió editando manualmente el archivo en
-conflicto, eliminando las marcas `<<<<<<<`, `=======` y `>>>>>>>`, y acordando
-dejar el texto: "CONTROL PERSONAL DE GASTOS".
+automáticamente los cambios. Se resolvió editando manualmente el archivo
+
 
 ## Conclusión individual
 
@@ -65,14 +64,20 @@ Hice el registro de gastos con sus validaciones y el método para mostrar la lis
 
 **[Nombre de tu compañero]:**
 
-¿Qué diferencia encontró entre commit y push?
+¿Qué diferencia encontré entre commit y push?
+El commit guarda los cambios realizados en el repositorio local y el push sirve para subir esos cambios al repositorio remoto en GitHub y compartirlos con el compañero
 
 ¿Por qué debe hacerse pull antes de modificar archivos?
+Porque permite tener los cambios más recientes que están en GitHub y trabajar con una versión actualizada 
 
 ¿Para qué sirve trabajar en ramas?
+Sirve para que cada integrante pueda trabajar en sus propias modificaciones por separado sin afectar directamente la rama principal 
 
 ¿Qué ocasionó el conflicto?
+El conflicto ocurrió porque ambos modificamos la misma línea del título del programa en ramas diferentes
 
-¿Cómo decidió qué código conservar?
+¿Cómo decidí qué código conservar?
+Después de revisar el conflicto con mi compañer decidimos conservar el título “SISTEMA PERSONAL DE CONTROL DE GASTOS”, la solución se realizó manualmente
 
-¿Qué aportó personalmente al programa?
+¿Qué aporté personalmente al programa?
+Me encargué de implementar las funciones de el análisis de los gastos, el cálculo del gasto total, la identificación del gasto mayor, el cálculo del total por categoría y el resumen semanal con el total
