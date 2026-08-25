@@ -14,7 +14,7 @@ public class Main {
         int opcion;
 
         do {
-            System.out.println("\nGESTOR SEMANAL DE GASTOS\n");
+            System.out.println("CONTROL PERSONAL DE GASTOS");
             System.out.println("1. Registrar gasto");
             System.out.println("2. Mostrar todos los gastos");
             System.out.println("3. Calcular gasto total");
