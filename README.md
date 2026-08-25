@@ -38,7 +38,7 @@ Al modificar ambos la misma línea del título del programa en ramas distintas
 (`titulo-estudiante-a` y `titulo-estudiante-b`), Git no pudo fusionar
 automáticamente los cambios. Se resolvió editando manualmente el archivo en
 conflicto, eliminando las marcas `<<<<<<<`, `=======` y `>>>>>>>`, y acordando
-dejar el texto: "SISTEMA PERSONAL DE CONTROL DE GASTOS".
+dejar el texto: "CONTROL PERSONAL DE GASTOS".
 
 ## Conclusión individual
 
