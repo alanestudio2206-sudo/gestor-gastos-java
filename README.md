@@ -1,22 +1,26 @@
-# Gestor Semanal de Gastos
+Gestor Semanal de Gastos
 
-## Integrantes
+Integrantes
 - Lopez Cruz Alan - Estudiante A
-- [Nombre de tu compañero] - Estudiante B
+- Breña Torres Axel Iván - Estudiante B
 
-## Responsabilidades de cada integrante
+Responsabilidades de cada integrante:
 
-**Estudiante A:**
+
+
+Estudiante A:
 - Registro de gastos con validación de categoría y monto.
 - Visualización de la lista de gastos registrados.
 
-**Estudiante B:**
+Estudiante B:
 - Cálculo del gasto total.
 - Identificación del gasto mayor.
 - Cálculo de total por categoría.
 - Resumen semanal (total, promedio, gasto mayor).
 
-## Instrucciones para ejecutar el programa
+- 
+
+Instrucciones para ejecutar el programa
 
 1. Clonar el repositorio: `git clone [URL del repo]`
 2. Abrir el proyecto en IntelliJ IDEA.
@@ -34,15 +38,11 @@
 
 ## Conflicto encontrado y forma de resolverlo
 
-Al modificar ambos la misma línea del título del programa en ramas distintas
-(`titulo-estudiante-a` y `titulo-estudiante-b`), Git no pudo fusionar
-automáticamente los cambios. Se resolvió editando manualmente el archivo en
-conflicto, eliminando las marcas `<<<<<<<`, `=======` y `>>>>>>>`, y acordando
-dejar el texto: "SISTEMA PERSONAL DE CONTROL DE GASTOS".
+Al modificar ambos la misma línea del título del programa en ramas distintas, Git no pudo fusionar automáticamente los cambios, se resolvió editando manualmente el archivo que tenía conflicto y acordando dejar el texto: "SISTEMA PERSONAL DE CONTROL DE GASTOS".
 
-## Conclusión individual
+Conclusión individual
 
-**Lopez Cruz Alan:**
+Lopez Cruz Alan:*****************************************************
 
 ¿Qué diferencia encontró entre commit y push?
 
@@ -56,7 +56,7 @@ dejar el texto: "SISTEMA PERSONAL DE CONTROL DE GASTOS".
 
 ¿Qué aportó personalmente al programa?
 
-**[Nombre de tu compañero]:**
+Breña Torres Axel Iván***********************************************
 
 ¿Qué diferencia encontró entre commit y push?
 
