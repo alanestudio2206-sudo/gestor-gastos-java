@@ -39,7 +39,7 @@ Al modificar ambos la misma línea del título del programa en ramas distintas
 automáticamente los cambios. Se resolvió editando manualmente el archivo en
 conflicto, eliminando las marcas `<<<<<<<`, `=======` y `>>>>>>>`, y acordando
 dejar el texto: "CONTROL PERSONAL DE GASTOS".
-
+~~~~
 ## Conclusión individual
 
 **Lopez Cruz Alan:**
