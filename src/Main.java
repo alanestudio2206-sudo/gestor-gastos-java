@@ -26,4 +26,42 @@ public class Main {
         return posicionMayor;
     }
 
+
+    public static double calcularTotalPorCategoria(
+            ArrayList<String> categorias,
+            ArrayList<Double> montos,
+            String categoriaBuscada) {
+
+        double total = 0;
+        for (int i = 0; i < categorias.size(); i++) {
+            if (categorias.get(i).equalsIgnoreCase(categoriaBuscada)) {
+                total += montos.get(i);
+            }
+        }
+        return total;
+    }
+
+
+    public static void mostrarResumen(
+            ArrayList<String> conceptos,
+            ArrayList<String> categorias,
+            ArrayList<Double> montos) {
+
+        if (conceptos.isEmpty()) {
+            System.out.println("No hay gastos registrados para enseñar.");
+            return;
+        }
+
+        double total = calcularTotal(montos);
+        double promedio = total / conceptos.size();
+        int posicionMayor = obtenerPosicionGastoMayor(montos);
+
+        System.out.println("RESUMEN SEMANAL");
+        System.out.println();
+        System.out.println("Número de gastos: " + conceptos.size());
+        System.out.printf("Gasto total: $%.2f%n", total);
+        System.out.printf("Promedio x gasto: $%.2f%n", promedio);
+        System.out.printf("Gasto mayor: %s, $%.2f%n",
+                conceptos.get(posicionMayor), montos.get(posicionMayor));
+    }
 }
