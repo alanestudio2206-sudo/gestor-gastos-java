@@ -3,8 +3,6 @@ import java.util.Scanner;
 
 import java.util.ArrayList;
 
-
-
 public class Main {
 
     public static void main(String[] args) {
@@ -106,7 +104,6 @@ public class Main {
                     (i + 1), conceptos.get(i), categorias.get(i), montos.get(i));
              }
         }
-    }
 
 
 
@@ -169,4 +166,6 @@ public class Main {
         System.out.printf("Gasto mayor: %s, $%.2f%n",
                 conceptos.get(posicionMayor), montos.get(posicionMayor));
     }
+
 }
+
