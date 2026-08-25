@@ -1,26 +1,22 @@
-Gestor Semanal de Gastos
+# Gestor Semanal de Gastos
 
-Integrantes
+## Integrantes
 - Lopez Cruz Alan - Estudiante A
-- Breña Torres Axel Iván - Estudiante B
+- [Nombre de tu compañero] - Estudiante B
 
-Responsabilidades de cada integrante:
+## Responsabilidades de cada integrante
 
-
-
-Estudiante A:
+**Estudiante A:**
 - Registro de gastos con validación de categoría y monto.
 - Visualización de la lista de gastos registrados.
 
-Estudiante B:
+**Estudiante B:**
 - Cálculo del gasto total.
 - Identificación del gasto mayor.
 - Cálculo de total por categoría.
 - Resumen semanal (total, promedio, gasto mayor).
 
-- 
-
-Instrucciones para ejecutar el programa
+## Instrucciones para ejecutar el programa
 
 1. Clonar el repositorio: `git clone [URL del repo]`
 2. Abrir el proyecto en IntelliJ IDEA.
@@ -38,25 +34,36 @@ Instrucciones para ejecutar el programa
 
 ## Conflicto encontrado y forma de resolverlo
 
-Al modificar ambos la misma línea del título del programa en ramas distintas, Git no pudo fusionar automáticamente los cambios, se resolvió editando manualmente el archivo que tenía conflicto y acordando dejar el texto: "SISTEMA PERSONAL DE CONTROL DE GASTOS".
+Al modificar ambos la misma línea del título del programa en ramas distintas
+(`titulo-estudiante-a` y `titulo-estudiante-b`), Git no pudo fusionar
+automáticamente los cambios. Se resolvió editando manualmente el archivo en
+conflicto, eliminando las marcas `<<<<<<<`, `=======` y `>>>>>>>`, y acordando
+dejar el texto: "SISTEMA PERSONAL DE CONTROL DE GASTOS".
 
-Conclusión individual
+## Conclusión individual
 
-Lopez Cruz Alan:*****************************************************
+**Lopez Cruz Alan:**
 
-¿Qué diferencia encontró entre commit y push?
+
+¿Qué diferencia encontré entre commit y push?
+El commit guarda mis cambios en mi compu, y el push los sube a GitHub para que mi compañero los vea.
 
 ¿Por qué debe hacerse pull antes de modificar archivos?
+Para no trabajar con una versión vieja y evitar conflictos con lo que ya subió mi compañero.
 
 ¿Para qué sirve trabajar en ramas?
+Para que cada quien haga su parte sin afectar el código del otro hasta que esté listo.
 
 ¿Qué ocasionó el conflicto?
+Mi compañero y yo modificamos la misma línea del título del programa, cada uno con un texto diferente.
 
-¿Cómo decidió qué código conservar?
+¿Cómo decidí qué código conservar?
+Nos pusimos de acuerdo y combinamos ambas ideas en un solo texto.
 
-¿Qué aportó personalmente al programa?
+¿Qué aporté personalmente al programa?
+Hice el registro de gastos con sus validaciones y el método para mostrar la lista completa.
 
-Breña Torres Axel Iván***********************************************
+**[Nombre de tu compañero]:**
 
 ¿Qué diferencia encontró entre commit y push?
 
