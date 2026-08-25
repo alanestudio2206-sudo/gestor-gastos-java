@@ -11,6 +11,7 @@ public class Main {
         ArrayList<Double> montos = new ArrayList<>();
 
         registrarGasto(conceptos, categorias, montos, scanner);
+        mostrarGastos(conceptos, categorias, montos);
 
         scanner.close();
     }
@@ -83,5 +84,22 @@ public class Main {
 
         System.out.println("Gasto registrado correctamente.");
          }
+    public static void mostrarGastos(
+            ArrayList<String> conceptos,
+            ArrayList<String> categorias,
+            ArrayList<Double> montos) {
 
+        if (conceptos.isEmpty()) {
+            System.out.println("No hay gastos registrados todavía.");
+            return;
+        }
+
+        System.out.println("GASTOS REGISTRADOS");
+        System.out.println();
+
+        for (int i = 0; i < conceptos.size(); i++) {
+            System.out.printf("%d. %-12s | %-12s | $%.2f%n",
+                    (i + 1), conceptos.get(i), categorias.get(i), montos.get(i));
+             }
+        }
     }
