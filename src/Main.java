@@ -5,14 +5,64 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Gestor semanal de Gastos");
         Scanner scanner = new Scanner(System.in);
+
         ArrayList<String> conceptos = new ArrayList<>();
         ArrayList<String> categorias = new ArrayList<>();
         ArrayList<Double> montos = new ArrayList<>();
 
-        registrarGasto(conceptos, categorias, montos, scanner);
-        mostrarGastos(conceptos, categorias, montos);
+        int opcion;
+
+        do {
+            System.out.println("\nGESTOR SEMANAL DE GASTOS\n");
+            System.out.println("1. Registrar gasto");
+            System.out.println("2. Mostrar todos los gastos");
+            System.out.println("3. Calcular gasto total");
+            System.out.println("4. Mostrar gasto mayor");
+            System.out.println("5. Mostrar gastos por categoría");
+            System.out.println("6. Mostrar resumen semanal");
+            System.out.println("7. Salir");
+            System.out.print("\nSeleccione una opción: ");
+
+            opcion = scanner.nextInt();
+            scanner.nextLine();
+
+            switch (opcion) {
+                case 1:
+                    registrarGasto(conceptos, categorias, montos, scanner);
+                    break;
+                case 2:
+                    mostrarGastos(conceptos, categorias, montos);
+                    break;
+                case 3:
+                    System.out.printf("Total: $%.2f%n", calcularTotal(montos));
+                    break;
+                case 4:
+                    int pos = obtenerPosicionGastoMayor(montos);
+                    if (pos == -1) {
+                        System.out.println("No hay gastos registrados.");
+                    } else {
+                        System.out.printf("Gasto mayor: %s | %s | $%.2f%n",
+                                conceptos.get(pos), categorias.get(pos), montos.get(pos));
+                    }
+                    break;
+                case 5:
+                    System.out.print("Escriba la categoría a consultar: ");
+                    String categoria = scanner.nextLine();
+                    double totalCat = calcularTotalPorCategoria(categorias, montos, categoria);
+                    System.out.printf("Total en %s: $%.2f%n", categoria, totalCat);
+                    break;
+                case 6:
+                    mostrarResumen(conceptos, categorias, montos);
+                    break;
+                case 7:
+                    System.out.println("Programa terminado.");
+                    break;
+                default:
+                    System.out.println("Opción no válida.");
+            }
+
+        } while (opcion != 7);
 
         scanner.close();
     }
