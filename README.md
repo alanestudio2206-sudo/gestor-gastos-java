@@ -62,7 +62,7 @@ Le dije que lo modificaria y el acepto.
 ¿Qué aporté personalmente al programa?
 Hice el registro de gastos con sus validaciones y el método para mostrar la lista completa.
 
-**[Nombre de tu compañero]:**
+**Axel Iván Breña Torres:**
 
 ¿Qué diferencia encontré entre commit y push?
 El commit guarda los cambios realizados en el repositorio local y el push sirve para subir esos cambios al repositorio remoto en GitHub y compartirlos con el compañero
